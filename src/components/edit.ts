@@ -1,0 +1,3 @@
+// editera post
+
+export default {};
