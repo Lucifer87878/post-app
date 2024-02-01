@@ -1,5 +1,7 @@
 // skapa 
 // Skickas med som body alltså det vi vill spara i databasen
+
+export function Create () {
 const note = {
     username: 'ada',
     title: "Första anteckningen",
@@ -13,4 +15,4 @@ const note = {
       'Content-Type': 'application/json' // Berätta för servern att det vi skickar med är ett JSON objekt
     }
   });
-export default {};
+}
